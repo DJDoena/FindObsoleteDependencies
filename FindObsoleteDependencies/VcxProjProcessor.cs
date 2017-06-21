@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text.RegularExpressions;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Text.RegularExpressions;
+
     internal sealed class VcxProjProcessor : ProjProcessorBase
     {
         public VcxProjProcessor(String fullName)

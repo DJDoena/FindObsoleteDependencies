@@ -1,10 +1,10 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+
     /// <summary>
     /// from http://www.codeproject.com/Articles/453778/Loading-Assemblies-from-Anywhere-into-a-New-AppDom
     /// </summary>

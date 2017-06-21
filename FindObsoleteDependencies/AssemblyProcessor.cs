@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+
     internal class AssemblyProcessor
     {
         private readonly IAssemblyReflectionManager Manager;

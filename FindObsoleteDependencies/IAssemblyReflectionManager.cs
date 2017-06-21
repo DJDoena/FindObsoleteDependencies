@@ -1,8 +1,8 @@
-﻿using System;
-using System.Reflection;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.Reflection;
+
     internal interface IAssemblyReflectionManager : IDisposable
     {
         Boolean LoadAssembly(String assemblyPath, String domainName);

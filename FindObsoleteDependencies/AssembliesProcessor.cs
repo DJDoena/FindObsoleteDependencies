@@ -1,8 +1,8 @@
-﻿using System;
-using System.IO;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.IO;
+
     internal sealed class AssembliesProcessor
     {
         private String BinaryRoot

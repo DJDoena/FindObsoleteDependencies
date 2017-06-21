@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+
     public static class Program
     {
         private static IEnumerable<DependencyInfo> s_DependencyInfos;
@@ -23,8 +23,7 @@ namespace FindObsoleteDependencies
             {
                 if (s_DependencyInfos == null)
                 {
-
-                    IEnumerable<DependencyInfo> dependcyInfos = Program.Projs.Values;
+                    IEnumerable<DependencyInfo> dependcyInfos = Projs.Values;
 
                     dependcyInfos = dependcyInfos.Where(di => (di.AssemblyName.EndsWith(".resources") == false));
 

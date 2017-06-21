@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+    using System.Collections.Generic;
+
     internal sealed class ProjectGuidChecker
     {
         private Dictionary<String, DependencyInfo> ProjsByFullName

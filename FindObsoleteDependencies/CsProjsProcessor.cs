@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FindObsoleteDependencies
+﻿namespace FindObsoleteDependencies
 {
+    using System;
+
     internal sealed class CsProjsProcessor : ProjsProcessorBase
     {
         protected override String Extension
