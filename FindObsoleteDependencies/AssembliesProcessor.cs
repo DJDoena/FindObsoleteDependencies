@@ -6,7 +6,7 @@
     internal sealed class AssembliesProcessor
     {
         private String BinaryRoot
-            => (Program.SourceRoot);
+            => (Program.BinaryRoot);
 
         public void Process()
         {
